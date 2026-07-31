@@ -4,7 +4,7 @@ A machine learning project comparing multiple classification models to predict h
 
 ## Summary
 
-This project predicts heart disease risk using the UCI Heart Disease dataset (~918 patient records, 12 clinical features). Three classification models — Logistic Regression, Random Forest Classifier, and Support Vector Classifier — are trained and compared, evaluated across multiple metrics rather than accuracy alone, since in a medical risk context a false negative (missing a real case) is far more costly than a false positive.
+This project predicts heart disease risk using the UCI Heart Disease dataset (~918 patient records, 12 clinical features). Three classification models, Logistic Regression, Random Forest Classifier, and Support Vector Classifier, are trained and compared, evaluated across multiple metrics rather than accuracy alone, since in a medical risk context a false negative (missing a real case) is far more costly than a false positive.
 
 ## Tech stack
 
@@ -23,7 +23,7 @@ This project predicts heart disease risk using the UCI Heart Disease dataset (~9
 
 ## Evaluation
 
-Models are compared across multiple metrics rather than accuracy alone — in a medical risk context, false negatives matter more than raw accuracy:
+Models are compared across multiple metrics rather than accuracy alone. In a medical risk context, false negatives matter more than raw accuracy:
 
 | Model | Accuracy | Recall | F1 | MSE | MAE |
 |---|---|---|---|---|---|
@@ -35,7 +35,7 @@ Models are compared across multiple metrics rather than accuracy alone — in a 
 
 ## Key findings
 
-The Random Forest Classifier performed best overall, with the highest accuracy (85.87%), highest F1 score (0.8796), highest recall (0.9223), and the lowest error (MSE/MAE of 0.1413) among the three models. Support Vector Classifier came second (84.78% accuracy), narrowly ahead of Logistic Regression (84.24% accuracy). All three models achieved similarly high recall (~91–92%), which matters most here — in a heart disease screening context, missing a true positive case is far costlier than a false alarm.
+The Random Forest Classifier performed best overall, with the highest accuracy (85.87%), highest F1 score (0.8796), highest recall (0.9223), and the lowest error (MSE/MAE of 0.1413) among the three models. Support Vector Classifier came second (84.78% accuracy), narrowly ahead of Logistic Regression (84.24% accuracy). All three models achieved similarly high recall (~91–92%), which matters most here. In a heart disease screening context, missing a true positive case is far costlier than a false alarm.
 
 ## How to run
 
