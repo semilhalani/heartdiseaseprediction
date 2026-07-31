@@ -1,0 +1,17 @@
+# Core data handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine learning models and preprocessing
+scikit-learn
+
+# Missing-value visualization (used in notebook's msno.matrix call)
+missingno
+
+# Notebook environment
+jupyter
