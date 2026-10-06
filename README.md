@@ -4,7 +4,7 @@ A machine learning project comparing multiple classification models to predict h
 
 ## Summary
 
-This project predicts heart disease risk using the UCI Heart Disease dataset, roughly 918 patient records with 12 clinical features. Three classification models, Logistic Regression, Random Forest Classifier, and Support Vector Classifier, are trained and compared. Evaluation goes beyond accuracy alone, since in a medical risk context a false negative (missing a real case) is far more costly than a false positive.
+This project predicts heart disease risk using the UCI Heart Disease dataset, 918 patient records with 11 clinical features and a HeartDisease target column. Three classification models, Logistic Regression, Random Forest Classifier, and Support Vector Classifier, are trained and compared. Evaluation goes beyond accuracy alone, since in a medical risk context a false negative (missing a real case) is far more costly than a false positive.
 
 ## Tech stack
 
