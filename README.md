@@ -15,6 +15,13 @@ This project predicts heart disease risk using the UCI Heart Disease dataset, 91
 - Plotly for interactive distribution and feature comparison plots
 - Jupyter Notebook
 
+## Data preparation
+
+- Five categorical features (sex, chest pain type, resting ECG, exercise angina and ST slope) were converted to integer codes.
+- The dataset has no missing values, confirmed with pandas and a missingno matrix.
+- A correlation heatmap showed the features were largely independent, so all 11 were kept.
+- Features were scaled with MinMaxScaler and split 80/20 into training and test sets.
+
 ## Models compared
 
 - Logistic Regression
